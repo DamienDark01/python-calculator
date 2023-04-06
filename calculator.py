@@ -23,3 +23,8 @@ def remainder():
 
 
 # rest of the program
+choice = "Yes";
+
+while (choice == "Yes") :
+  print("Enter the choice - - - -\n");
+  print("");
