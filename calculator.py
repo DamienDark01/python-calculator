@@ -1,26 +1,26 @@
 # custom function to add
-def add():
-  
+def add(a, b):
+  return a+b;
 
 # custom function to subtract
-def subtract():
-  
+def subtract(a, b):
+  return a-b
 
 # custom function to multiply
-def multiply():
-  
+def multiply(a, b):
+  return a*b;
 
 # custom function to divide
-def divide():
-  
+def divide(a, b):
+  return a/b;
 
 # custom function to find the power
-def power():
-  
+def power(a, b):
+  return a**b;
 
 # custom function to find the remainder
-def remainder():
-
+def remainder(a, b):
+  return a%b;
 
 # rest of the program
 choice = "Yes";
@@ -28,3 +28,4 @@ choice = "Yes";
 while (choice == "Yes") :
   print("Enter the choice - - - -\n");
   print("");
+  
